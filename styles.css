@@ -490,14 +490,15 @@ a{
 .skills-container{
     flex-wrap: wrap;
     display: flex;
-    padding: 10rem;
     position: relative;
+    padding: 8%;
     margin: 10rem auto;
     gap: 30px;
 
 }
 
 .skill-container-left{
+    margin-bottom: 20rem;
     display: flex;
     justify-content: left;
     flex-direction: column;
@@ -506,15 +507,17 @@ a{
 }
 
 .skills-container-right{
-    display:table-row;
-    padding-top: 6rem;
-    gap: 5rem;
-    justify-content: right;
-    position: relative;
+    gap: 2rem;
+    display: flex;
+    left: 50%;
+    top: 10%;
+    justify-content: center;
+    width: 50%;
+    position: absolute;
 }
 
 .skills-logo{
-    width: 90px;
+    width: 70px;
     transition: all 0.5s;
 
 }
@@ -523,8 +526,8 @@ a{
     user-select: none;
     font-size: 15em;
     color: rgb(231, 231, 231);
-    bottom: -34.5%;
-    right: -5%;
+    bottom: 58.5%;
+    right: -2%;
     font-weight: bold;
     transition: all 3s;
     position: absolute;
