@@ -488,8 +488,9 @@ a{
 
 
 .skills-container{
+    flex-wrap: wrap;
     display: flex;
-    padding: 5rem;
+    padding: 10rem;
     position: relative;
     margin: 10rem auto;
     gap: 30px;
@@ -498,18 +499,18 @@ a{
 
 .skill-container-left{
     display: flex;
+    justify-content: left;
     flex-direction: column;
     width: 50%;
 
 }
 
 .skills-container-right{
-    width: 50%;
-    display: flex;
-    flex-wrap: wrap;
-
+    display:table-row;
+    padding-top: 6rem;
+    gap: 5rem;
+    justify-content: right;
     position: relative;
-    gap: 2rem;
 }
 
 .skills-logo{
